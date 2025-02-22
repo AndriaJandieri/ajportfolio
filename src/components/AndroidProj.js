@@ -15,6 +15,7 @@ const AndroidProj = () => {
                             imgsrc={value.imgsrc}
                             title={value.title}
                             text={value.text}
+                            text2={value.text2}
                             viewlink={value.viewlink}
                             videolink={value.videolink}
                         />

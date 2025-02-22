@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection heading="CONTACT" text="Any your feedback will be much appreciated" />
+      <HeroSection heading="CONTACT" text="I'm excited to hear from you and discuss potential collaborations or any other questions you may have." />
       <ContactForm />
       <Footer />
     </div>

@@ -1,23 +1,23 @@
-import "./ProjCard.css";
-import ProjCard from "./ProjCard";
-import ProjCardData from "./ProjCardData";
+import "./SoftProjCard.css";
+import SoftProjCard from "./SoftProjCard";
+import SoftProjCardData from "./SoftProjCardData";
 import React from 'react'
 
-const Proj = () => {
+const SoftProj = () => {
     return (
-        <div className="container">
-            <h1 className="card-heading">Web Development</h1>
-            <div className="card-container">
-                {ProjCardData.map((value, index) => {
+        <div className="s-container">
+            <h1 className="s-card-heading">Software Development</h1>
+            <div className="s-card-container">
+                {SoftProjCardData.map((value, index) => {
                     return (
-                        <ProjCard
+                        <SoftProjCard
                             key={index}
                             imgsrc={value.imgsrc}
                             title={value.title}
                             text={value.text}                            
                             text2={value.text2}
                             viewlink={value.viewlink}
-                            sourcelink={value.sourcelink}
+                            //videolink={value.videolink}
                         />
                     )
                 })}
@@ -27,4 +27,4 @@ const Proj = () => {
     )
 }
 
-export default Proj
+export default SoftProj

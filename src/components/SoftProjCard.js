@@ -1,11 +1,11 @@
-import "./AndroidProjCard.css";
+import "./SoftProjCard.css";
 import React from 'react'
-import { FaGooglePlay } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
-const AndroidProjCard = (props) => {
+const SoftProjCard = (props) => {
     return (
-        < div className="a-project-card" >
-            <h2 className="a-project-title">{props.title}</h2>
+        < div className="s-project-card" >
+            <h2 className="s-project-title">{props.title}</h2>
             <a href={props.videolink}
                 target="_blank"
                 rel="noopener noreferrer">
@@ -13,22 +13,22 @@ const AndroidProjCard = (props) => {
                 <img src={props.imgsrc} alt="" />
             </a>
 
-            <div className="a-project-details">                
+            <div className="s-project-details">
                 <p className="proj-card-text-header">Description:</p>
                 <p>{props.text}</p>
                 <p className="proj-card-text-header">Technologies Used:</p>
                 <p>{props.text2}</p>
                 <p></p>
 
-                <div className="a-card-btns">
+                <div className="s-card-btns">
                     {props.viewlink && <a
                         href={props.viewlink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn">
-                        <FaGooglePlay className="a-play-icon"
+                        <FaExternalLinkAlt className="s-play-icon"
                             size={30} style={{ color: "#faf7ff", marginRight: "3rem" }} />
-                        Visit Application Link
+                        Open ScreenShots
                     </a>}
                 </div>
             </div>
@@ -36,4 +36,4 @@ const AndroidProjCard = (props) => {
     )
 }
 
-export default AndroidProjCard
+export default SoftProjCard

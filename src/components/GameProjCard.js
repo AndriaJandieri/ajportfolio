@@ -14,7 +14,11 @@ const GameProjCard = (props) => {
             </a>
 
             <div className="g-project-details">
+                <p className="proj-card-text-header">Description:</p>
                 <p>{props.text}</p>
+                <p className="proj-card-text-header">Technologies Used:</p>
+                <p>{props.text2}</p>
+                <p></p>
 
                 <div className="g-card-btns">
                     {props.viewlink && <a

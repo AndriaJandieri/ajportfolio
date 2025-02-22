@@ -17,12 +17,18 @@
     background: #333333;
     border-radius: 8px;
     padding: 1.2rem 1rem;
+    transition: transform 0.5s ease;
 }
 
+.proj-card-text-header{
+    color: #8685ef;
+    text-decoration: underline;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
 
 .g-project-card:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+    transform: scale(1.1);    
     border: 2px solid #faf7ff;
 }
 
@@ -47,6 +53,7 @@
 .g-card-btns {
     display: inline-block;
     padding: 1rem 0rem;
+    padding-top: 0 !important;
 }
 
 .g-card-btns .btn {

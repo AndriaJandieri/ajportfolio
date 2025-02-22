@@ -1,20 +1,20 @@
-import "./ProjCard.css";
-import ProjCard from "./ProjCard";
-import ProjCardData from "./ProjCardData";
+import "./RecentProjCard.css";
+import RecentProjCard from "./RecentProjCard";
+import RecentProjCardData from "./RecentProjCardData";
 import React from 'react'
 
-const Proj = () => {
+const RecentProj = () => {
     return (
-        <div className="container">
-            <h1 className="card-heading">Web Development</h1>
-            <div className="card-container">
-                {ProjCardData.map((value, index) => {
+        <div className="r-container">
+            <h1 className="r-card-heading">Recent Projects</h1>
+            <div className="r-card-container">
+                {RecentProjCardData.map((value, index) => {
                     return (
-                        <ProjCard
+                        <RecentProjCard
                             key={index}
                             imgsrc={value.imgsrc}
                             title={value.title}
-                            text={value.text}                            
+                            text={value.text}
                             text2={value.text2}
                             viewlink={value.viewlink}
                             sourcelink={value.sourcelink}
@@ -27,4 +27,4 @@ const Proj = () => {
     )
 }
 
-export default Proj
+export default RecentProj

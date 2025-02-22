@@ -9,7 +9,7 @@ const BgHome = () => {
 
     const [texty] = useTypewriter(
         {
-            words: ['Web', 'Game', 'Android'],
+            words: ['Software', 'Game'],
             loop: {},
         }
     )

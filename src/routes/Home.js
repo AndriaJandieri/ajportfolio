@@ -11,6 +11,8 @@ import GameProj from '../components/GameProj';
 import ContactForm from '../components/ContactForm';
 
 import ScrollingArrow from "../components/styles/ScrollingArrow";
+import SoftProj from "../components/SoftProj";
+import RecentProj from "../components/RecentProj";
 
 
 const Home = () => {
@@ -21,6 +23,8 @@ const Home = () => {
             <ScrollingArrow/>
             <hr></hr>
             <h1 className="page-name">PROJECTS</h1>
+            <RecentProj/>
+            <SoftProj/>
             <AndroidProj/>
             <Proj />
             <GameProj />
