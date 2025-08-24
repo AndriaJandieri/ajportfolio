@@ -5,6 +5,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import BgHome from '../components/BgHome';
 import Footer from '../components/Footer';
+import GameShow from '../components/GameShow';
 import AndroidProj from '../components/AndroidProj';
 import Proj from '../components/Proj';
 import GameProj from '../components/GameProj';
@@ -21,6 +22,8 @@ const Home = () => {
             <Navbar />
             <BgHome />
             <ScrollingArrow/>
+            <hr></hr>
+            <GameShow />
             <hr></hr>
             <h1 className="page-name">PROJECTS</h1>
             <RecentProj/>

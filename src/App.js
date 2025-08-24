@@ -7,6 +7,7 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Projects from "./routes/Projects"
 import Contact from "./routes/Contact"
+import GameShow from "./routes/Game"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={< Home />} />
+        <Route path="/GameShow" element={< GameShow />} />
         <Route path="/About" element={< About />} />
         <Route path="/Projects" element={< Projects />} />
         <Route path="/Contact" element={< Contact />} />

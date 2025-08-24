@@ -19,7 +19,7 @@ const ProjCardData = [
         text: "Fully responsive portfolio website made from scratch, where you can donwload CV and see some of my projects I worked on.",
         text2: " React",
         viewlink: "https://andria-jandieri-portfolio.netlify.app",
-        sourcelink: "https://github.com/AndriaJandieri/myportfolio"
+        sourcelink: "https://github.com/AndriaJandieri/ajportfolio"
     },
     {
         imgsrc: projimg1,

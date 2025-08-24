@@ -34,6 +34,8 @@ const BgHome = () => {
                 <div>
                 
                     <Link to="/contact" className="btn">Get in touch</Link>
+
+                    
                     {/* <img className="memeimg" src={memeimg} alt="memeimg" /> */}
                 </div>
 
