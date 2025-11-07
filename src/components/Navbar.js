@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link className="cv-btn"
-                        to="/resume/AndriaJandieri-CV.pdf"
+                        to="/resume/Andria_Jandieri_Resume.pdf"
                         target="_blank"
                         download>
                         Download CV</Link>

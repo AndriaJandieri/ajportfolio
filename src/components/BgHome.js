@@ -9,7 +9,7 @@ const BgHome = () => {
 
     const [texty] = useTypewriter(
         {
-            words: ['Software', 'Game'],
+            words: ['Software/Game Developer'],
             loop: {},
         }
     )
@@ -27,9 +27,9 @@ const BgHome = () => {
                         {texty}
                         <Cursor cursorColor="#1b1b1b" />
                     </span>
-                    <span>
+                    {/*<span>
                         &nbsp;Developer
-                    </span>
+                    </span>*/}
                 </h1>
                 <div>
                 
